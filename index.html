@@ -123,19 +123,19 @@
           <div class="row">
             <!-- First and Last Name -->
             <div class="input-field col s6">
-              <input type="text" name="name" id="full-name" required="" class="validate">
+              <input type="text" name="name" id="full-name" required="" class="validate" required>
               <label for="full-name">First and Last Name</label>
             </div>
             <!-- E-Mail -->
             <div class="input-field col s6">
-              <input name="_replyto" id="email" type="email" class="validate">
+              <input name="_replyto" id="email" type="email" class="validate" required>
               <label for="email">Email</label>
             </div>
           </div>
           <div class="row">
             <!-- Will you attend? -->
             <div class="input-field col s12">
-              <select>
+              <select required>
                 <option value="" disabled selected>Choose your option</option>
                 <option value="1">Yes</option>
                 <option value="2">No</option>
@@ -147,7 +147,7 @@
               <!-- Family members -->
               Are any family members coming with you?
               <div class="input-field inline">
-                <input class="textarea" name="message" id="message" class="validate" placeholder="No plus ones, sorry!">
+                <input class="textarea" name="message" id="message" class="validate" placeholder="No plus ones, sorry!" required>
                 <span class="helper-text" data-error="wrong" data-success="right">Names please!</span>
               </div>
             </div>
