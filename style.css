@@ -8,25 +8,11 @@ html {
   top:0;
   z-index: 1;
 }
-.carousel .carousel-item {
-  width:30rem !important;}
 
 p {
   line-height: 2rem;
 }
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+
 
 body {
   background: url('assets/paralax2.jpg') no-repeat center center fixed;
